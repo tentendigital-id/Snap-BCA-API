@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snap_bca_api"
+version = "1.0.0"
+authors = [
+  { name="Oji Setyawan", email="ojiset22@outlook.com" },
+]
+description = "Bank BCA API (SNAP) Python SDK"
+readme = "README.rst"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests",
+  "pyOpenSSL"
+]
+
+[project.urls]
+Homepage = "https://github.com/tentendigital-id/Snap-BCA-API"
+Issues = "https://github.com/tentendigital-id/Snap-BCA-API/issues"
