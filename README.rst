@@ -15,7 +15,9 @@ Introduction
 ============
 
 python module to access SNAP BCA API. 
+
 Feature :
+
 - check balance.
 - account statement (history).
 
@@ -30,7 +32,9 @@ How to use
 
 1. Import library to your project :python:`from snap_bca_api.bca import BCA_SNAP`.
 2. Initiate config your BCA API
+
 .. code-block:: python
+
     bca = BCA_SNAP(
         client_id=client_id,
         client_secret=client_secret,
@@ -47,6 +51,7 @@ Get balance
 -----------
 
 .. code-block:: python
+
     get_balance = bca.getBalance(
         account_number=ACCOUNT_NUMBER,
         partnerReferenceNo=PARTNER_REFERENCE_NO,
@@ -75,8 +80,8 @@ Note:
 Resource
 =================
 
-https://stackoverflow.com/questions/32505722/signing-data-using-openssl-with-python
-https://github.com/otnansirk/php-snap-bi
-https://github.com/zahris85/Python-API-BCA/tree/master
-https://github.com/TheArKaID/snap-bi-signer-js
-https://github.com/3mp3ri0r/cpybca
+- https://stackoverflow.com/questions/32505722/signing-data-using-openssl-with-python
+- https://github.com/otnansirk/php-snap-bi
+- https://github.com/zahris85/Python-API-BCA/tree/master
+- https://github.com/TheArKaID/snap-bi-signer-js
+- https://github.com/3mp3ri0r/cpybca
